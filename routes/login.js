@@ -9,7 +9,7 @@ var database;
 function connectDB() {
     // 데이터베이스 연결 정보
     var databaseUrl = 'mongodb://localhost:27017/local';
-
+    // 로그인
     // 데이터베이스 연결
     MongoClient.connect(databaseUrl, function(err, db) {
         if (err) throw err;
